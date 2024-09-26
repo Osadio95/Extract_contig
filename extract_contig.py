@@ -6,7 +6,7 @@ from Bio import SeqIO
 # Variables à définir
 fasta_file = "scaffolds.fasta"  # Fichier FASTA contenant les contigs
 gene_fasta = "gene-Repl.fasta"   # Fichier FASTA contenant la séquence du gène d'intérêt
-output_file = "contig_with_gene.fasta"  # Fichier de sortie contenant le contig
+output_file = "PP_.fasta"  # Fichier de sortie contenant le contig
 
 # Exécuter BLAST pour trouver le contig contenant le gène
 blast_output = "blast_result.xml"
